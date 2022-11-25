@@ -11,7 +11,7 @@ Our goal was to improve the accessibility and construction of the Horiseon websi
 3. Refactor the CSS code in order to provide more maintainable and understandable code outline. 
 
 ## Preview of Site
-![Live site preview](./assets/images/Horiseon-Live_Site.png)
+![Live site preview](assets/images/Horiseon-Live-Site.png)
 
 ## Live Site
 Link to the live site <https://andykb9b13.github.io/horiseon-accessibility-refactor/>
