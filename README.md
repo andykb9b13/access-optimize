@@ -10,7 +10,9 @@ Our goal was to improve the accessibility and construction of the Horiseon websi
 2. Improving the structure of the HTML by replacing generic elements with semantic alternatives to provide clarity about the flow of the website. 
 3. Refactor the CSS code in order to provide more maintainable and understandable code outline. 
 
+## Preview of Site
+/assets/images/Horiseon-Live_site
 
-
+## Live Site
 Link to the live site <https://andykb9b13.github.io/horiseon-accessibility-refactor/>
 
