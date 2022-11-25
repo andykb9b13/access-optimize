@@ -1,3 +1,9 @@
+/* ******************************************************************
+* Horiseon Website CSS
+* Edited by: Andy Kleindienst (22.11.20)
+* Stylesheet for the landing page
+********************************************************************* */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +14,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* ***** Style of the header ***** */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +27,12 @@ body {
     font-size: 48px;
 }
 
+/* changes the color of the letters S E O in the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* ******* Style of the navbar inside the header ************** */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +55,7 @@ a {
     text-decoration: none;
 }
 
+/* ******** Style of the main background image ***** */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,6 +65,7 @@ a {
     background-position: center;
 }
 
+/* ********* Style of the main content boxes **************** */
 .content {
     width: 75%;
     display: inline-block;
@@ -62,7 +73,7 @@ a {
 }
 
 
-.main-services {
+.main-services-box {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -71,11 +82,11 @@ a {
     color: #ffffff;
 }
 
-.main-services img {
+.main-services-box img {
     max-height: 200px;
 }
 
-.main-services h2 {
+.main-services-box h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -94,6 +105,7 @@ p {
     margin-left: 25px;
 }
 
+/* ********* Style of the benefits box ************* */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,23 +122,19 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.benefit-example h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+/* style of icon images inside benefits box */
+.benefit-example img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/* ********** Style of the footer ************** */
 .footer {
     padding: 30px;
     clear: both;
